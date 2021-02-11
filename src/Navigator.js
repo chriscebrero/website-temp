@@ -1,6 +1,6 @@
 import './header.css';
 
-function Header() {
+function Navigator() {
   return (
     <div className="header-component">
         <div className="nav-bar">
@@ -21,4 +21,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Navigator;

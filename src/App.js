@@ -1,14 +1,14 @@
 import './App.css';
-import Header from './Header';
+import Navigator from './Navigator';
 
 function App() {
   return (
 
     <div className="App">
     <div className="app-container">
-      <Header/>
+      <Navigator/>
+      
       <header className="App-header">
-        
         <p style={{color: 'black'}}>
           Hello.
         </p>
