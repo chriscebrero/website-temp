@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Monaco';
+    src: url('/Users/christiancebrero/Desktop/website/website/src/Monaco.ttf')
+}
+
+.header-component {
+    background-color:#ececec;
+    padding: 10px;
+}
+
+.header-component .nav-bar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-component div.nav-item {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    color: black;
+    margin: 40px 0;
+}
+
+.header-component div.nav-item p {
+    padding: 0;
+    margin: 0 20px;
+    display: flex;
+    color: black;
+    font-family: 'Monaco';
+    font-size: 20px;
+}
