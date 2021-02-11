@@ -1,5 +1,6 @@
 import './App.css';
 import Navigator from './Navigator';
+import Banner from './Banner';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
     <div className="App">
     <div className="app-container">
       <Navigator/>
-      
+      <Banner/>
       <header className="App-header">
         <p style={{color: 'black'}}>
           Hello.

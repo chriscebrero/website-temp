@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Monaco';
+    src: url('/Users/christiancebrero/Desktop/website/website/src/Monaco.ttf')
+}
+
+
+.banner {
+    display: flex;
+    align-items: flex-start;
+}
+
+.photo {
+    display: inline-block;
+}
+.portrait {
+    border-radius: 50%;
+    width: 45%;
+    height: 45%;
+}
+
+.banner .typed {
+    display: inline-block;
+    justify-items: flex-end;
+    margin: 25px 0;
+}
+
+.banner p {
+    font-family: 'Monaco';
+    font-size: 40px;
+    letter-spacing: 1px;
+}
