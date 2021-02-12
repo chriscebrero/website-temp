@@ -29,3 +29,13 @@
     font-family: 'Monaco';
     font-size: 20px;
 }
+
+.header-component div.nav-item p:hover {
+    padding: 0;
+    margin: 0 20px;
+    display: flex;
+    color: black;   
+    font-family: 'Monaco';
+    font-size: 20px;
+    opacity: 0.5;
+}

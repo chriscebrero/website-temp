@@ -18,6 +18,13 @@
     height: 45%;
 }
 
+.portrait:hover {
+    border-radius: 50%;
+    width: 45%;
+    height: 45%;
+    opacity: 0.8;
+}
+
 .banner .typed {
     display: inline-block;
     justify-items: flex-end;
