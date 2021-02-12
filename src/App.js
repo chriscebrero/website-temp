@@ -2,6 +2,7 @@ import './App.css';
 import Navigator from './Navigator';
 import Banner from './Banner';
 import About from './About';
+import Skills from "./Skills";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navigator/>
       <Banner/>
       <About/>
+      <Skills/>
       <header className="App-header">
         <p style={{color: 'black'}}>
           Hello.

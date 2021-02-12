@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Monaco';
+    src: url('/Users/christiancebrero/Desktop/website/website/src/Monaco.ttf')
+}
+
+.skills-content div h1 {
+    display: flex;
+    justify-content: left;
+    letter-spacing: 8px;
+}
+
+.skills-content #front {
+    width: 30%;
+    height: 30%;
+}
+
+.skills-content #back {
+    width: 23%;
+    height: 23%;
+}
+
+.skills-content #tools {
+    width: 45%;
+    height: 45%;
+}
+
+
+.skills-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills-container {
+    font-family: 'Monaco';
+}
