@@ -21,11 +21,33 @@
 .banner .typed {
     display: inline-block;
     justify-items: flex-end;
-    margin: 25px 0;
+    margin: 18px 0;
 }
 
 .banner p {
     font-family: 'Monaco';
-    font-size: 40px;
-    letter-spacing: 1px;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+}
+
+.social-media-container div {
+    margin: 20px 0;
+    padding: 10px 0;
+    display: inline-block;
+}
+
+.social-media-container .sm-icon {
+    height: 30%;
+    width: 30%;
+}
+
+.social-media-container .sm-icon {
+    height: 30%;
+    width: 30%;
+}
+
+.social-media-container .sm-icon:hover {
+    height: 30%;
+    width: 30%;
+    opacity: 0.5;
 }

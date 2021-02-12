@@ -1,16 +1,26 @@
 import './banner.css';
 import Photo from './linkedin.jpeg'
+import LinkedIn from './linkedin-brands.svg'
+import Resume from './file-regular.svg';
+import GitHub from './github-brands.svg';
 
 function Banner() {
   return (
     <div className="banner">
-
     <div className="image-container">
         <div className="photo">
             <img class="portrait" src={Photo}   />
         </div>
         <div className="social-media-container">
-            <p>Hello</p>
+            <div>
+                <img class="sm-icon" src={LinkedIn}/>
+            </div>
+            <div>
+                <img class="sm-icon" src={GitHub}/>
+            </div>
+            <div>
+                <img class="sm-icon" src={Resume}/>
+            </div>
         </div>
     </div>
 
