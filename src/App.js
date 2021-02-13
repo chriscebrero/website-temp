@@ -3,6 +3,7 @@ import Navigator from './Navigator';
 import Banner from './Banner';
 import About from './About';
 import Skills from "./Skills";
+import Experience from "./Experience";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Banner/>
       <About/>
       <Skills/>
+      <Experience/>
       <header className="App-header">
         <p style={{color: 'black'}}>
           Hello.

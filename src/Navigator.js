@@ -16,6 +16,9 @@ function Navigator() {
             <div className="nav-item">
                 <p>Contacts</p>
             </div>
+            <div className="nav-item">
+                <p>Music</p>
+            </div>
         </div>
     </div>
   );
