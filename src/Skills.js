@@ -49,6 +49,7 @@ function Skills() {
           <p>Linux</p>
           <p>Serverless</p>
           <p>Unit Testing</p>
+          <p>Docker</p>
         </div>
       </div>
     </div>
