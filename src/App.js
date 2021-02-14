@@ -15,7 +15,7 @@ function App() {
       <About/>
       <Skills/>
       <Experience/>
-      <header className="App-header">
+      {/* <header className="App-header">
         <p style={{color: 'black'}}>
           Hello.
         </p>
@@ -27,7 +27,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
     </div>
   );
