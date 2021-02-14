@@ -33,3 +33,7 @@
 .skills-container {
     font-family: 'Monaco';
 }
+
+.skills-content div ul li {
+    margin: 0 35px 15px 0;
+}
