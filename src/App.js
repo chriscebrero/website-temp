@@ -5,33 +5,23 @@ import About from './About';
 import Skills from "./Skills";
 import Experience from "./Experience";
 import Projects from './Projects';
+import DocumentTitle from 'react-document-title';
 
 function App() {
   return (
-
+    <DocumentTitle title="Chris Cebrero | Software Engineer">
     <div className="App">
-    <div className="app-container">
-      <Navigator/>
-      <Banner/>
-      <About/>
-      <Skills/>
-      <Experience/>
-      <Projects/>
-      {/* <header className="App-header">
-        <p style={{color: 'black'}}>
-          Hello.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+      <title>Chris Cebrero | Software Engineer</title>
+      <div className="app-container">
+        <Navigator/>
+        <Banner/>
+        <About/>
+        <Skills/>
+        <Experience/>
+        <Projects/>
+      </div>
     </div>
-    </div>
+    </DocumentTitle>
   );
 }
 

@@ -5,7 +5,7 @@ import ToolBox from "./toolbox-solid.svg";
 
 function Skills() {
   return (
-    <div className="skills-container">
+    <div id="skills" className="skills-container">
       <div>
         <h1 style={{ marginLeft: "30px" }}>Skills</h1>
       </div>

@@ -3,6 +3,7 @@ import Photo from './linkedin.jpeg'
 import LinkedIn from './linkedin-brands.svg'
 import Resume from './file-regular.svg';
 import GitHub from './github-brands.svg';
+import Chris from './resume.pdf';
 
 function Banner() {
   return (
@@ -13,13 +14,19 @@ function Banner() {
         </div>
         <div className="social-media-container">
             <div>
-                <img class="sm-icon" src={LinkedIn}/>
+                <a href="https://www.linkedin.com/in/ccebrero/" target="_blank">
+                    <img class="sm-icon" src={LinkedIn}/>
+                </a>
             </div>
             <div>
-                <img class="sm-icon" src={GitHub}/>
+                <a href="https://github.com/chriscebrero" target="_blank">
+                    <img class="sm-icon" src={GitHub}/>
+                </a>
             </div>
             <div>
-                <img class="sm-icon" src={Resume}/>
+                <a href={Chris} target="_blank">
+                    <img class="sm-icon" src={Resume}/>
+                </a>
             </div>
         </div>
     </div>

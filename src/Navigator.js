@@ -5,19 +5,19 @@ function Navigator() {
     <div className="header-component">
         <div className="nav-bar">
             <div className="nav-item">
-                <p>Skills</p>
+                <a style={{textDecoration: 'none'}} href="#skills">Skills</a>
             </div>
             <div className="nav-item">
-                <p>Experience</p>
+                <a style={{textDecoration: 'none'}} href="#experience">Experience</a>
             </div>
             <div className="nav-item">
-                <p>Projects</p>
+                <a style={{textDecoration: 'none'}} href="#projects">Projects</a>
             </div>
             <div className="nav-item">
-                <p>Contacts</p>
+                <a style={{textDecoration: 'none'}} href="#contacts">Contacts</a>
             </div>
             <div className="nav-item">
-                <p>Music</p>
+                <a style={{textDecoration: 'none'}} target="_blank" href="https://soundcloud.com/atlasnoir">Music</a>
             </div>
         </div>
     </div>

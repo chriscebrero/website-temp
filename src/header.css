@@ -21,7 +21,7 @@
     margin: 40px 0;
 }
 
-.header-component div.nav-item p {
+.header-component div.nav-item a {
     padding: 0;
     margin: 0 20px;
     display: flex;
@@ -30,7 +30,7 @@
     font-size: 20px;
 }
 
-.header-component div.nav-item p:hover {
+.header-component div.nav-item a:hover {
     padding: 0;
     margin: 0 20px;
     display: flex;
