@@ -1,4 +1,5 @@
 import "./experience.css";
+import beatdapp from './beatdapp-logo.png';
 
 let obj = [
   {
@@ -14,6 +15,8 @@ let obj = [
       "Incorporated the full designs & functionality of AWOL into React Native code",
     ],
     color: "rgba(121,0,230,255)",
+    logo: beatdapp,
+    id: 'beatdapp'
   },
   {
     name: 'SAP',
@@ -60,6 +63,9 @@ function ExperienceComponents() {
                   )
                 })}
               </ul>
+            </div>
+            <div className="logo">
+                <img id={key.id} src={key.logo}/>
             </div>
           </div>
         </div>
