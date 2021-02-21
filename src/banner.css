@@ -58,3 +58,38 @@
     width: 30%;
     opacity: 0.5;
 }
+
+@media only screen and (max-width: 900px) {
+    .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-media-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .social-media-container div {
+        margin: 0;
+    }
+
+    .social-media-container .sm-icon {
+        width: 50%;
+        height: 75%;
+    }
+    
+    .banner .typed {
+        margin: 0;
+        justify-items: flex-start;
+        width: 100%;
+    }
+
+    .banner .typed p {
+        font-size: 35px;
+        justify-content: space-evenly;
+        text-align: left;
+    }
+  
+  }

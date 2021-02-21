@@ -29,10 +29,19 @@ html {
   color: white;
 }
 
+
+
 .app-container {
   display: flex;
   flex-direction: column;
   margin: 0 120px;
+}
+
+@media only screen and (max-width: 900px) {
+  .app-container {
+    margin: 0 30px;
+  }
+
 }
 
 .App-link {

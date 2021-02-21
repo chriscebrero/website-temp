@@ -39,3 +39,39 @@
     font-size: 20px;
     opacity: 0.5;
 }
+
+@media only screen and (max-width: 900px) {
+    .header-component .nav-bar {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      margin: 40px 0;
+      justify-content: space-evenly;
+    }
+
+    .header-component div.nav-item a {
+        padding: 0;
+        margin: 0 10px;
+        display: flex;
+        color: black;   
+        font-family: 'Monaco';
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .header-component div.nav-item a:hover {
+        padding: 0;
+        margin: 0 10px;
+        display: flex;
+        color: black;   
+        font-family: 'Monaco';
+        font-size: 15px;
+        text-align: center;
+        opacity: 0.5;
+    }
+
+    .header-component div.nav-item {
+        margin: 0;
+    }
+  
+  }

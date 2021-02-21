@@ -12,3 +12,17 @@ h1 {
     line-height: 1.5cm;
     font-family: 'Monaco';
 }
+
+@media only screen and (max-width: 900px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .description p {
+        margin: 0;
+        font-size: 15px;
+        line-height: 45px;
+        font-family: 'Monaco';
+    }
+  
+  }

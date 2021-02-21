@@ -1,5 +1,6 @@
 import "./experience.css";
 import beatdapp from './beatdapp-logo.png';
+import sap from './sap.png';
 
 let obj = [
   {
@@ -29,7 +30,9 @@ let obj = [
       "Implemented designs created and discussed by various stakeholders for SAP Hybris",
       "Ensured stability of SAP’s User Assistance Content Platform by writing verbose JavaScript tests to automate UI tests",
       "Migrated automation tests written in Protractor.js into Nightwatch.js to polish readability of code, and efficiency of functions"],
-    color: "rgba(235,160,33,255)"
+    color: "white",
+    logo: sap,
+    id: 'sap'
   },
   {
     name: 'Mount Pleasant Business Improvement Area',
@@ -65,7 +68,7 @@ function ExperienceComponents() {
               </ul>
             </div>
             <div className="logo">
-                <img id={key.id} src={key.logo}/>
+                <img id={key.id} src={key.logo}/> 
             </div>
           </div>
         </div>

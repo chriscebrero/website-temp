@@ -66,11 +66,17 @@ h1.title {
 .logo {
     align-items: center;
     top: 50%;
-    margin-left: 105px;
     transform: translateY(20%);
 }
 
 .logo #beatdapp {
     width: 65%;
     height: 65%;
+    margin-left: 105px;
+}
+
+.logo #sap {
+    width: 65%;
+    height: 65%;
+    margin-left: 100px;
 }
