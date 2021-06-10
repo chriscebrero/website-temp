@@ -3,7 +3,7 @@ import Photo from './linkedin.jpeg'
 import LinkedIn from './linkedin-brands.svg'
 import Resume from './file-regular.svg';
 import GitHub from './github-brands.svg';
-import Chris from './resume.pdf';
+import Chris from './resume2.pdf';
 
 function Banner() {
   return (
